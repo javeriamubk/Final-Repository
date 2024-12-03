@@ -147,6 +147,10 @@ Scripts:
 run_kallisto.sh: Automates quantification.
 analyze_expression.R: Differential expression in R.
 
+Kallisto indexes the transcriptome (reference.index) and quantifies gene expression by mapping RNA-seq reads to the indexed reference. This step generates abundance estimates for each gene or transcript.
+
+
+
 Output:
 
 abundance.tsv: Counts and TPM values.
